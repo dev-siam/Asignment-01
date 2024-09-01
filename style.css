@@ -189,6 +189,7 @@ iframe {
 .box h4 {
   font-size: 24px;
   font-weight: 800;
+  line-height: 36px; /* 150% */
 }
 .box p{
   margin-bottom: 24px;
@@ -212,4 +213,34 @@ background: rgba(0, 76, 232, 0.05);
 
 .next-target-section {
   margin: 150px 150px 0 150px;
+}
+.lg-card-container{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.lg-card{
+  padding: 40px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  border-radius: 16px;
+border: 1px solid rgba(13, 19, 33, 0.15);
+}
+
+.lg-card img {
+  width: auto;
+  height: 80px;
+}
+.lg-card-text h4{
+  line-height: 36px; /* 150% */
+}
+.lg-card-text p{
+  margin-bottom: 24px;
+  opacity: 0.7;
+}
+a{
+  text-decoration: underline;
+  font-weight: 600;
+  color: black;
 }
