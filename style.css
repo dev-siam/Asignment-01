@@ -5,6 +5,12 @@
   box-sizing: border-box;
   font-family: "Azeret Mono", monospace;
 }
+html {
+  scroll-behavior: smooth;
+}
+p{
+  line-height: 26px;
+}
 /* --------Header Section--------- */
 header nav {
   display: flex;
