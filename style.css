@@ -84,7 +84,7 @@ header nav button {
   margin: 80px 150px;
   padding: 80px;
   border-radius: 16px;
-  
+
   background: rgba(13, 19, 33, 0.02);
 
   display: flex;
@@ -158,10 +158,58 @@ header nav button {
   border-radius: 16px;
   border: 1px solid rgba(13, 19, 33, 0.2);
 }
-iframe{
+iframe {
   height: 550px;
   width: 100%;
 }
-.target-section{
+.target-section {
+  margin: 150px 150px 0 150px;
+}
+.description {
+  margin-bottom: 48px;
+}
+.description h2 {
+  margin-bottom: 24px;
+}
+.box-container{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  
+}
+.box{
+  padding: 40px;
+  border-radius: 16px;
+}
+.box img {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 24px;
+}
+.box h4 {
+  font-size: 24px;
+  font-weight: 800;
+}
+.box p{
+  margin-bottom: 24px;
+}
+.box a {
+  font-weight: 700;
+  text-decoration-line: underline;
+  /* margin-top: 24px; */
+}
+.box1{
+  background: rgba(255, 76, 30, 0.05);
+}
+.box2{
+background: rgba(0, 76, 232, 0.05);
+}
+.box3{
+  background: rgba(255, 223, 0, 0.05);
+}
+
+
+
+.next-target-section {
   margin: 150px 150px 0 150px;
 }
