@@ -171,13 +171,12 @@ iframe {
 .description h2 {
   margin-bottom: 24px;
 }
-.box-container{
+.box-container {
   display: flex;
   align-items: center;
   gap: 24px;
-  
 }
-.box{
+.box {
   padding: 40px;
   border-radius: 16px;
 }
@@ -191,7 +190,7 @@ iframe {
   font-weight: 800;
   line-height: 36px; /* 150% */
 }
-.box p{
+.box p {
   margin-bottom: 24px;
 }
 .box a {
@@ -199,48 +198,100 @@ iframe {
   text-decoration-line: underline;
   /* margin-top: 24px; */
 }
-.box1{
+.box1 {
   background: rgba(255, 76, 30, 0.05);
 }
-.box2{
-background: rgba(0, 76, 232, 0.05);
+.box2 {
+  background: rgba(0, 76, 232, 0.05);
 }
-.box3{
+.box3 {
   background: rgba(255, 223, 0, 0.05);
 }
-
-
 
 .next-target-section {
   margin: 150px 150px 0 150px;
 }
-.lg-card-container{
+.lg-card-container {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
-.lg-card{
+.lg-card {
   padding: 40px;
   display: flex;
   gap: 24px;
   align-items: center;
   border-radius: 16px;
-border: 1px solid rgba(13, 19, 33, 0.15);
+  border: 1px solid rgba(13, 19, 33, 0.15);
 }
 
 .lg-card img {
   width: auto;
   height: 80px;
 }
-.lg-card-text h4{
+.lg-card-text h4 {
   line-height: 36px; /* 150% */
 }
-.lg-card-text p{
+.lg-card-text p {
   margin-bottom: 24px;
   opacity: 0.7;
 }
-a{
+a {
   text-decoration: underline;
   font-weight: 600;
   color: black;
+}
+
+/* I need Support */
+.support-section {
+  /* background-image: url(./assets/handshake.jpg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 80px 150px;
+  padding: 64px 48px;
+  text-align: center;
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+    url(./assets/handshake.jpg) lightgray 50% / cover no-repeat;
+}
+.support-text h2 {
+  font-size: 32px;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+.support-text {
+  margin-bottom: 24px;
+  color: #fff;
+  opacity: 0.7;
+}
+.contact-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+.contact-form input {
+  border-radius: 5px;
+  display: flex;
+  width: 548px;
+  padding: 19px 20px;
+  align-items: center;
+}
+input[type=text]:focus{
+  outline: none;
+}
+.contact-form button{
+  font-size: 20px;
+font-weight: 600;
+  padding: 17px 20px;
+  border-radius: 8px;
+background: #fff;
+
 }
